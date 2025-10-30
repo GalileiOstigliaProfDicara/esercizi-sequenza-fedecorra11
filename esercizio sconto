@@ -1,0 +1,16 @@
+//Fatto inserire all'utente un calcolo percentuale di sconto
+//prezzo pieno prezzo scontato e sconto.
+
+#include <stdio.h>
+
+int main(){
+    float prezzo_pieno, prezzo_scontato, sconto;
+
+    printf("inserisci il prezzo pieno");
+    scanf("%f", &prezzo_pieno);
+    printf("Inserisci la percentuale di sconto: ");
+    scanf("%d", &percentuale);
+    sconto = prezzo_pieno * percentuale / 100;
+    prezzo_scontato = prezzo_pieno - sconto;
+    printf("Il prezzo scontato è %d euro e hai avuto %d euro di sconto", prezzo_scontato, sconto);
+}

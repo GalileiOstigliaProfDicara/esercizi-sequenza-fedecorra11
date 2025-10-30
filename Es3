@@ -1,0 +1,20 @@
+//Esercizio3 - Area e perimetro
+//Fatto scrivere all'utente scrivi un programma
+//Che calcoli area e perimetro del nmero inserito
+
+#include <stdio.h>
+
+int main() (
+    int numero, area, perimetro;
+
+    printf("inserisci base e altezza del rettangolo")
+    //scanf("%d %d, base, altezza")
+    
+    area = base * altezza
+    perimetro = (base + altezza) * 2
+    printf("l'area del rettangolo è %d e il perimetro del rettangolo è %d")
+)
+
+
+
+
